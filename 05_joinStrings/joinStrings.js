@@ -8,9 +8,20 @@
 */
 
 // Add your code right below, good luck!
+var firstName = "Carlos";
+var lastName = "Stevenson";
+var thisYear = 1965;
+var birthYear = 1947;
 
+var greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
+console.log(greeting);
 
+fullName = firstName + " " + lastName;
+age = thisYear - birthYear;
+
+greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
+console.log(greeting);
 
 
 // Do not change this
